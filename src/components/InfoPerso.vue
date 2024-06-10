@@ -3,14 +3,18 @@
 
 <template>
   <div class="greetings">
-    <h1>bonjour</h1>
-    <h2>nom prenom</h2>
-    <p>texte intro</p>
+    <h1>{{$t('welcomeMsg') }}</h1>
+    <h2>{{$t('name') }} {{$t('surname') }}</h2>
+    <p>{{$t('intro')}}</p>
 
     <div id="contact">
       <h3>contact</h3>
-      <p>email</p>
-      <p>tel</p>
+        <p>{{$t('email')}}</p>
+        <p>{{$t('phone')}}</p>
+      <p>{{$t('github')}}</p>
+      <p>{{$t('linkedin')}}</p>
+
+
     </div>
 
   </div>

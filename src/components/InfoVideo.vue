@@ -11,5 +11,9 @@
 </template>
 
 <style scoped>
+  video {
+    width: 500px;
+    height: auto;
+  }
 
 </style>

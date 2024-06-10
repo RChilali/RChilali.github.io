@@ -41,7 +41,7 @@ header {
   }
   main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     padding-top: 5rem;
     gap: var(--section-gap);
   }
