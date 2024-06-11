@@ -1,0 +1,83 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: gray;
+  align-items: center;
+
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  padding: 5px;
+
+}
+
+#logo img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+
+.dropbtn img {
+  height: 60px;
+  width: 100px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.fi-gb {
+  background-image: url(../img/gb.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 30px;
+}
+
+.fi-fr {
+  background-image: url(../img/fr.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 30px;
+}
+
+.fi-bg {
+  background-image: url(../img/bg.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 30px;
+}
+
+
+
+#mainContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: lightgray;
+  align-items: center;
+  padding: 10px;
+}
