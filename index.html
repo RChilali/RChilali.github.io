@@ -8,47 +8,44 @@
 <body>
 
 <header id="header">
-
   <div id="logo" property="foaf:depiction">
     <img src="img/Logofull.jpeg" alt="Logo">
   </div>
   <div>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#project">Project</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#project">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 
-<div class="dropdown">
-  <button class="dropbtn">
-    <img id="selectedLanguage" src="img/gb.svg" alt="Selected Language">
-  </button>
-  <div class="dropdown-content" id="languageSwitch">
-    <a href="#" data-value="en" data-src="img/gb.svg" class="fi fi-gb"></a>
-    <a href="#" data-value="fr" data-src="img/fr.svg" class="fi fi-fr"></a>
-    <a href="#" data-value="bg" data-src="img/bg.svg" class="fi fi-bg"></a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      <img id="selectedLanguage" src="img/gb.svg" alt="Selected Language">
+    </button>
+    <div class="dropdown-content" id="languageSwitch">
+      <a href="#" data-value="en" data-src="img/gb.svg" class="fi fi-gb"></a>
+      <a href="#" data-value="fr" data-src="img/fr.svg" class="fi fi-fr"></a>
+      <a href="#" data-value="bg" data-src="img/bg.svg" class="fi fi-bg"></a>
+    </div>
   </div>
-</div>
 
 </header>
 
-<section id="mainContent" >
+<section id="mainContent">
+  <div id="leftContent">
+    <h1 id="welcome" property="foaf:name">Hi, I'm Rayane Chilali</h1>
+    <p id="role" property="dc:description">Web Developer</p>
+    <p id="location" property="dc:coverage">Based in Paris</p>
+    <p id="specialization" property="dc:subject">Specialized in Back-End Development</p>
+    <p id="skills" property="dc:subject">Java, Spring, AWS</p>
+    <p id="availability" property="dc:subject">Looking for new opportunities</p>
+  </div>
 
-<div id="leftContent">
-  <h1 id="welcome" property="foaf:name">Hi, I'm Rayane Chilali</h1>
-  <p id="role" property="dc:description">Web Developer</p>
-  <p id="location" property="dc:coverage">Based in Paris</p>
-  <p id="specialization" property="dc:subject">Specialized in Back-End Development</p>
-  <p id="skills" property="dc:subject">Java , Spring, AWS</p>
-  <p id="availability" property="dc:subject">Looking for new opportunities</p>
-</div>
-
-<div id="rightContent">
-  <iframe width="800" height="600" src="https://www.youtube.com/embed/HdLqlTSaIuc?cc_lang_pref=fr&cc_load_policy=1"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
+  <div id="rightContent">
+    <iframe id="video" width="800" height="600" src="https://www.youtube.com/embed/3lLjS86-UwA?cc_load_policy=1&cc_lang_pref=en" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </section>
 
 <script src="js/languageSwitch.js"></script>
