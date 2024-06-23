@@ -22,6 +22,7 @@ async function changeLanguage(language) {
   document.getElementById("specialization").textContent = translations.specialization;
   document.getElementById("skills").textContent = translations.skills;
   document.getElementById("availability").textContent = translations.availability;
+  document.documentElement.lang = language;
 }
 
 // When the page loads, check if a language has been stored in localStorage
