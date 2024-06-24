@@ -5,5 +5,9 @@
   "specialization": "Специализиран в Back-End разработката",
   "skills": "Java , Spring, Vue.js",
   "availability": "Търся нови възможности",
-  "flag": "img/bg.svg"
+  "flag": "img/bg.svg",
+  "home": "Начало",
+  "about": "За нас",
+  "project": "Проект",
+  "contact": "Контакт"
 }

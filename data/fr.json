@@ -5,5 +5,9 @@
   "specialization": "Spécialisé dans le développement Back-End",
   "skills": "Java , Spring, Vue.js",
   "availability": "À la recherche de nouvelles opportunités",
-  "flag": "img/fr.svg"
+  "flag": "img/fr.svg",
+  "home": "Accueil",
+  "about": "À propos",
+  "project": "Projet",
+  "contact": "Contact"
 }

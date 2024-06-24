@@ -11,7 +11,7 @@
   width: 100px;
   height: 100px;
   display: flex;
-  padding: 5px;
+  padding: 15px;
 
 }
 
@@ -92,3 +92,31 @@ border: 0;
 body {
    background-color: gray;
  }
+
+#navButton {
+  flex-grow: 1;
+}
+
+#navButton ul {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Keep items in a row */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 30px;
+}
+
+#navButton ul li a {
+  font-weight: bold; /* Make text bold */
+  font-size: 18px;
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set link color to black, change as needed */
+  padding: 5px; /* Add some padding to make it look bigger */
+}
+
+#navButton ul li a:hover {
+  background-color: #f0f0f0; /* Add a background color */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px; /* Add some padding to make it look bigger */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}

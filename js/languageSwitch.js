@@ -25,6 +25,12 @@ async function changeLanguage(language) {
   document.getElementById("skills").textContent = translations.skills;
   document.getElementById("availability").textContent = translations.availability;
   document.documentElement.lang = language;
+
+  // Update navigation buttons
+  document.getElementById("home").textContent = translations.home;
+  document.getElementById("about").textContent = translations.about;
+  document.getElementById("project").textContent = translations.project;
+  document.getElementById("contact").textContent = translations.contact;
 }
 
 // Function to update the video subtitle language
