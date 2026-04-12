@@ -1,53 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title property="dc:title">Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Joyeux anniversaire</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page page-login">
+  <main class="shell">
+    <section class="card intro-card">
+      <p class="eyebrow">Étape 1 sur 3</p>
+      <h1>Connexion anniversaire</h1>
+      <p class="lead">Entre les identifiants pour ouvrir le parcours festif et découvrir la surprise finale.</p>
 
-<header id="header">
-  <div id="logo" property="foaf:depiction">
-    <img src="img/Logofull.jpeg" alt="Logo">
-  </div>
-  <div id="navButton">
-    <ul>
-      <li><a id="home" href="index.html">Home</a></li>
-      <li><a id="about" href="#about">About</a></li>
-      <li><a  id="project" href="#project">Project</a></li>
-      <li><a  id="contact" href="#contact">Contact</a></li>
-    </ul>
-  </div>
+      <form id="loginForm" class="form-stack" novalidate>
+        <label for="username">Login</label>
+        <input id="username" name="username" type="text" autocomplete="username" placeholder="ex. rayane" required>
 
-  <div class="dropdown">
-    <button class="dropbtn">
-      <img id="selectedLanguage" src="img/gb.svg" alt="Selected Language">
-    </button>
-    <div class="dropdown-content" id="languageSwitch">
-      <a href="#" data-value="en" data-src="img/gb.svg" class="fi fi-gb"></a>
-      <a href="#" data-value="fr" data-src="img/fr.svg" class="fi fi-fr"></a>
-      <a href="#" data-value="bg" data-src="img/bg.svg" class="fi fi-bg"></a>
-    </div>
-  </div>
+        <label for="password">Mot de passe</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" placeholder="lemeilleur" required>
 
-</header>
+        <p id="loginMessage" class="message" aria-live="polite"></p>
+        <button type="submit" class="primary-btn">Se connecter</button>
+      </form>
+    </section>
+  </main>
 
-<section id="mainContent">
-  <div id="leftContent">
-    <h1 id="welcome" property="foaf:name">Hi, I'm Rayane Chilali</h1>
-    <p id="role" property="dc:description">Web Developer</p>
-    <p id="location" property="dc:coverage">Based in Paris</p>
-    <p id="specialization" property="dc:subject">Specialized in Back-End Development</p>
-    <p id="skills" property="dc:subject">Java, Spring, AWS</p>
-    <p id="availability" property="dc:subject">Looking for new opportunities</p>
-  </div>
-
-  <div id="rightContent">
-    <iframe id="video" width="800" height="600" src="https://www.youtube.com/embed/3lLjS86-UwA?cc_load_policy=1&cc_lang_pref=en" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</section>
-
-<script src="js/languageSwitch.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
